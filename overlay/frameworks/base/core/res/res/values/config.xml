@@ -394,5 +394,17 @@
 
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
+
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+
+    <!-- Flag indicating whether the device supports dynamic display color handling -->
+    <bool name="config_dynamic_display_colors_available">true</bool>
+
+    <!-- Flag indicating whether the device supports dynamic font contrast handling -->
+    <bool name="config_dynamic_font_contrast_available">true</bool>
 </resources>
 
